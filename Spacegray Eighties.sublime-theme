@@ -69,7 +69,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [116, 115, 105] // 03
+        "layer0.tint": [131, 130, 119] // 03
     },
     {
         "class": "tab_close_button",
@@ -153,7 +153,7 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [116, 115, 105] // 03
+        "fg": [131, 130, 119] // 03
     },
     {
         "class": "tab_label",
@@ -378,7 +378,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [116, 115, 105] // 03
+        "color": [131, 130, 119] // 03
     },
     // Text field labels
     {
@@ -512,7 +512,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [116, 115, 105] // 03
+        "color": [131, 130, 119] // 03
     },
     {
         "class": "sidebar_label",
@@ -538,7 +538,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [116, 115, 105] // 03
+        "color": [131, 130, 119] // 03
     },
     {
         "class": "sidebar_label",
@@ -687,7 +687,7 @@
         "layer0.texture": "",
         "layer0.tint": [30, 30, 30], // -01
         "layer0.opacity": 1,
-        "content_margin": 3
+        "content_margin": 6
     },
 
 //
@@ -747,15 +747,15 @@
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [116, 115, 105, 255], // 03
+        "fg": [131, 130, 119, 255], // 03
         "match_fg": [160, 159, 147, 255], // 04
-        "selected_fg": [116, 115, 105, 255], // 03
+        "selected_fg": [131, 130, 119, 255], // 03
         "selected_match_fg": [160, 159, 147, 255] // 04
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [116, 115, 105, 255], // 03
-        "selected_fg": [116, 115, 105, 255] // 03
+        "fg": [131, 130, 119, 255], // 03
+        "selected_fg": [131, 130, 119, 255] // 03
     },
 
 //
@@ -791,9 +791,9 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [116, 115, 105, 255], // 03
+        "fg": [131, 130, 119, 255], // 03
         "match_fg": [211, 208, 200, 255], // 05
-        "selected_fg": [116, 115, 105, 255], // 03
+        "selected_fg": [131, 130, 119, 255], // 03
         "selected_match_fg": [211, 208, 200, 255] // 05
     },
     {
