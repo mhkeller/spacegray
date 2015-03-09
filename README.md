@@ -32,7 +32,7 @@ A variation based on Base16 Eighties Dark color scheme.
 
 #### Manual
 
-You can also install the theme manually:
+You can install this fork manually:
 
 1. [Download the .zip](https://github.com/mhkeller/spacegray/archive/master.zip)
 2. Unzip and rename the folder to `Theme - Spacegray`
