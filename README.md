@@ -1,12 +1,14 @@
 # Spacegray
 
-A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
+**This fork includes a small tweak to color operators like `=`, `+` and `$`. It also changes some of the smaller file-modification icons from Monokai.**
+
+A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes. 
 
 ***
 
 ### Themes
 
-#### Spacegray
+<!--#### Spacegray
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
@@ -16,13 +18,13 @@ Default flavor based on Base16 Ocean Dark color scheme.
 
 Light variation based on Base16 Ocean Light color scheme.
 
-![image](Screenshots/spacegray-light.png)
+# ![image](Screenshots/spacegray-light.png)-->
 
 #### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
-![image](Screenshots/spacegray-eighties.png)
+<!--![image](Screenshots/spacegray-eighties.png)-->
 
 *The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe/Source-Code-Pro).*
 
@@ -48,7 +50,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 ***Note: Don't forget to restart Sublime Text after activating the theme.***
 
-#### Settings for Spacegray
+<!--#### Settings for Spacegray
 
 ```json
 {
@@ -64,7 +66,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
   "theme": "Spacegray Light.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
 }
-```
+```-->
 
 #### Settings for Spacegray Eighties
 
