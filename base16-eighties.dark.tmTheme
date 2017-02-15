@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#747369</string>
 				<key>lineHighlight</key>
-				<string>#74736930</string>
+				<string>#393939</string>
 				<key>selection</key>
 				<string>#515151</string>
 			</dict>
@@ -46,11 +46,11 @@
 			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
-			<string>variable.parameter.function</string>
+			<string>variable.parameter.function,meta.catch meta.group variable,meta.catch punctuation.separator</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#d3d0c8</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,7 +94,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d3d0c8</string>
+				<string>#cc99cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Objects</string>
+			<key>scope</key>
+			<string>punctuation.definition.block.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6699cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parens</string>
+			<key>scope</key>
+			<string>punctuation.separator.parameter.function,punctuation.separator.comma,punctuation.definition.group.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc99cc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -110,13 +132,90 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Keywords</string>
+			<key>scope</key>
+			<string>keyword.other.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffcc66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable, variable.other.dollar.only.js</string>
+			<string>meta.brackets meta.block variable.other.readwrite.js,variable, variable.other.dollar.only.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d3d0c8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6699cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>source.stylus variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6699cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>source.stylus variable.other.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc99cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>meta.brackets variable.other.readwrite,meta.property.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#f2777a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Special ariables</string>
+			<key>scope</key>
+			<string>variable.language.self,support.constant.prototype.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66cccc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dollar variables</string>
+			<key>scope</key>
+			<string>punctuation.dollar.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc99cc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -132,13 +231,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Stylus functions</string>
+			<key>scope</key>
+			<string>meta.function-call.stylus entity.other.attribute-name, entity.function-name.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc99cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class</string>
+			<string>support.module,support.type.object,support.class, entity.name.class, entity.name.type.class,variable.language.this</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ffcc66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Classes</string>
+			<key>scope</key>
+			<string>meta.function.declaration.js support.class,support.type.object support.type.object</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -183,6 +304,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#66cccc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support Stylus</string>
+			<key>scope</key>
+			<string>support.type.property-name.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d3d0c8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -303,7 +435,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string />
 				<key>foreground</key>
 				<string>#6699cc</string>
 			</dict>
@@ -397,7 +529,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f2777a</string>
+				<string>#f99157</string>
 			</dict>
 		</dict>
 		<dict>
