@@ -2,21 +2,13 @@
 
 A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
 
+## What's in this fork?
+
+Designed specifically for JavaScript and Stylus. It reduce the use of red in variable names and has more styling of reserved keywords, object literals, parenthesis, arguments and methods.
+
 ***
 
 ### Themes
-
-#### Spacegray
-
-Default flavor based on Base16 Ocean Dark color scheme.
-
-![image](screenshots/spacegray.png)
-
-#### Spacegray Light
-
-Light variation based on Base16 Ocean Light color scheme.
-
-![image](screenshots/spacegray-light.png)
 
 #### Spacegray Eighties
 
@@ -30,19 +22,9 @@ A variation based on Base16 Eighties Dark color scheme.
 
 ### How to Install
 
-#### Via Package Control
+Follow these steps:
 
-The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Spacegray is listed as `Theme - Spacegray`.
-
-1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
-2. Choose `Package Control: Install Package`
-3. Find `Theme - Spacegray` and hit <kbd>Enter</kbd>
-
-#### Manual
-
-You can also install the theme manually:
-
-1. [Download the .zip](https://github.com/kkga/spacegray/archive/master.zip)
+1. [Download the .zip](https://github.com/mhkeller/spacegray/archive/master.zip)
 2. Unzip and rename the folder to `Theme - Spacegray`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
 
@@ -56,23 +38,6 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 ***Note: Don't forget to restart Sublime Text after activating the theme.***
 
-#### Settings for Spacegray
-
-```json
-{
-  "theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
-}
-```
-
-#### Settings for Spacegray Light
-
-```json
-{
-  "theme": "Spacegray Light.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
-}
-```
 
 #### Settings for Spacegray Eighties
 
@@ -121,7 +86,7 @@ Tabs height:
   "spacegray_tabs_xlarge": true
 ```
 
-Tabs width: 
+Tabs width:
 
 ```json
   "spacegray_tabs_auto_width": true
