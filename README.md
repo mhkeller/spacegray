@@ -43,7 +43,8 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 ```json
 {
   "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",    "spacegray_fileicons": true
+  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+  "spacegray_fileicons": true
 }
 ```
 
