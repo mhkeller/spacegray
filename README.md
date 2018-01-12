@@ -36,17 +36,14 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 
 You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
 
-This theme also comes with a new icon package. I don't think it looks that great so revert to the old style icons by uninstalling the `zz File Icons zz` package through Package Control.
-
 ***Note: Don't forget to restart Sublime Text after activating the theme.***
-
 
 #### Settings for Spacegray Eighties
 
 ```json
 {
   "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
+  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",    "spacegray_fileicons": true
 }
 ```
 
