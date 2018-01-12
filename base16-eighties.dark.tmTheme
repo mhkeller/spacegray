@@ -669,6 +669,61 @@
 			</dict>
 		</dict>
 		<dict>
+		  <key>name</key>
+		  <string>Export and default</string>
+		  <key>scope</key>
+		  <string>meta.export.js keyword.control.import-export.js</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>fontStyle</key>
+		    <string>italic</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>Function parens</string>
+		  <key>scope</key>
+		  <string>meta.function-call.method.js punctuation.section.group.js</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#cc99cc</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>Conditional parens</string>
+		  <key>scope</key>
+		  <string>meta.function-call.method.js meta.conditional.js punctuation.section.group.js,meta.conditional.js punctuation.section.group.js</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#cc99cc</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>Curly braces</string>
+		  <key>scope</key>
+		  <string>punctuation.section.block.js</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#6699cc</string>
+		  </dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Commas, key/value sep</string>
+			<key>scope</key>
+			<string>punctuation.separator.comma.js,punctuation.separator.key-value.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc99cc</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>GitGutter deleted</string>
 			<key>scope</key>
